@@ -11,9 +11,12 @@ while True:
         # 問①：if文を用いて、以下の画像のように処理されるように記述しましょう。
         ##ここに書く
         if number == 1:
-            raise ValueError("invaalid literal for int() with base 10: 'hoge'")
+            number / int("hoge")
+
         elif number == 2:
-            raise IndexError('string index out of range')
+            index_error = 'a'
+            index_error[number]
+
         elif number == 3:
             print('↓')
             print('例外を発生させませんでした')
